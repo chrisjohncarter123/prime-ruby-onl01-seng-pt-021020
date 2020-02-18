@@ -3,7 +3,9 @@ def prime?(number)
   if(number <= 0)
     false
   end
-  
+  if(number == 1 || number == 2)
+    return 
+    
   counter = 1
   
   while counter < number
