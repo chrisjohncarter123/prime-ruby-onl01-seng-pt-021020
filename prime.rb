@@ -3,7 +3,7 @@ def prime?(number)
   
   puts ""
   
-  if(number <= 0)
+  if(number <= 1)
     return false
   end
   if(number == 2)
