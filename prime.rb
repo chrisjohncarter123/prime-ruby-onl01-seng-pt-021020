@@ -7,7 +7,8 @@ def prime?(number)
   counter = 0
   
   while counter < number
-    if(number / counter) 
+    if(number / counter).is
+    end
   end
 
   true
