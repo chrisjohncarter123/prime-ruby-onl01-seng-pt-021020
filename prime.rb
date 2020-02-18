@@ -4,15 +4,15 @@ def prime?(number)
   puts ""
   
   if(number <= 0)
-    false
+    return false
   end
   if(number == 2)
     return true
   end
   
-  counter = 1
+  counter = 2
   
-  while counter < (number / 2)
+  while counter < (number)
     if ((number / counter).is_a? Integer)
       #is divisible ...
       puts "#{number} #{counter}"
