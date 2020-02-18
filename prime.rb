@@ -1,8 +1,6 @@
 # Add  code here!
 def prime?(number)
   
-  puts ""
-  
   if(number <= 1)
     return false
   end
