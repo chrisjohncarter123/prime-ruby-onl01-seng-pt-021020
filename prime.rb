@@ -1,11 +1,13 @@
 # Add  code here!
 def prime?(number)
+  
   if(number <= 0)
     false
   end
-  if(number == 1 || number == 2)
-    return 
-    
+  if(number == 2)
+    return true
+  end
+  
   counter = 1
   
   while counter < number
