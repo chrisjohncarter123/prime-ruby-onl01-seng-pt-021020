@@ -4,12 +4,16 @@ def prime?(number)
     false
   end
   
-  counter = 0
+  counter = 1
   
   while counter < number
-    if(number / counter).is
+    if(number / counter).is_a?
+      #is divisible ...
+      
+      return false
     end
+    counter += 1
   end
 
-  true
+  return true
 end
