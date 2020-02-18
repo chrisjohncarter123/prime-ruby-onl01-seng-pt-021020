@@ -15,7 +15,6 @@ def prime?(number)
   while counter < (number)
     if ((number % counter) == 0)
       #is divisible ...
-      puts "#{number / counter} not prime : #{number}, divisible by #{counter}"
       return false
       
     end
@@ -24,12 +23,3 @@ def prime?(number)
 
   return true
 end
-
-
-prime?(1)
-prime?(2)
-prime?(3)
-prime?(4)
-prime?(5)
-prime?(6)
-prime?(7)
