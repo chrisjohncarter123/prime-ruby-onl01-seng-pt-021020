@@ -13,7 +13,7 @@ def prime?(number)
   counter = 2
   
   while counter < (number)
-    if ((number / counter).is_a? Integer)
+    if ((number % counter) == 0)
       #is divisible ...
       puts "#{number / counter} not prime : #{number}, divisible by #{counter}"
       return false
