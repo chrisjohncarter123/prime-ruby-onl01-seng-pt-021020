@@ -4,10 +4,10 @@ def prime?(number)
     false
   end
   
-  for d in 2..(number - 1)
-   if (number % d) == 0
-    false
-   end
+  counter = 0
+  
+  while counter < number
+    if(number )
   end
 
   true
